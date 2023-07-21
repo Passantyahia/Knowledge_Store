@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: url("data/backgroundsmoke.jpg");
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.ui {
+    border: 0;
+    box-shadow: 0 0 10 0 rgba(149, 184, 209, .5);
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10%;
+    display: flex;
+    gap: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.container-left {
+    width: 50%;
+    margin: -400px;
+    margin-top: -100px;
+    margin-left: 300px;
+
+}
+
+.container-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+    margin-right: 200px;
+
+}
+
+.card {
+    width: 360px;
+    height: 230px;
+    background: url("data/backgroundsmoke.jpg");
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 15px;
+    box-shadow: 0 1em 4em rgba(234, 234, 234, 0.201), 0 1em 4em rgba(234, 234, 234, 0.201), 0 1em 4em rgba(234, 234, 234, 0.201), 0 1em 4em rgba(234, 234, 234, 0.201);
+
+}
+
+.intern {
+    padding: 20px;
+}
+
+.approximation {
+    width: 30px;
+    transform: rotate(90deg);
+}
+
+.chip {
+    height: 40px;
+    position: relative;
+    left: 87%;
+    bottom: 20px;
+}
+
+.card-number {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    display: flex;
+}
+
+.card-holder {
+    color: whitesmoke;
+}
+
+.card label {
+    font-size: .7rem;
+}
+
+.card-infos {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    color: white;
+}
+
+#credit-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1.1rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.number-container, .name-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.expiration-container, .cvv-container {
+    width: 50%;
+}
+
+input {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #333333;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    outline: 0;
+    width: 90%;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #95B8D1;
+}
+
+input#valid-thru-text, input#cvv-text {
+    width: 80%;
+}
+
+input[type="submit"] {
+  font-size: 1em;
+  background-color: #0a103c;
+  border: none;
+  color: #ffffff;
+  padding: 0.8em 0;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+.infos-container {
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .ui {
+        flex-direction: column-reverse;
+    }
+
+    .container-left, .container-right {
+        width: 100%;
+    }
+}

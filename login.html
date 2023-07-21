@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--icon-->
+  <link rel="website icon" href="Data/booking-icon.png" type="x-icon" />
+  <!-- Google Fonts -->
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form action="home.html" method="post">
+<div class="container">
+        <h2>Login </h2>
+      <label>Username <span class="required-color">*</span></label>
+      <input type="text" placeholder="Username" id="username" />
+      <label>Password <span class="required-color">*</span></label>
+      <input type="password" placeholder="Password" id="password" />
+      <button id="submit">Submit</button>
+      <p>if you don't have an account click here -> <a href="Sign_Up.html">Sign Up</a>.</p>
+      <p id="message-ref">Signed Up Successfully!</p>
+    </div>
+</form>
+
+<!-- partial -->
+  <script  src="login.js"></script>
+
+</body>
+</html>

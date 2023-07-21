@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("Data/backgroundsmoke.jpg")  ;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.row{
+  position: relative;
+  right: 200px;
+  bottom: -40px;
+  border-radius: 60px;
+  margin-left: 1100px;
+  background-color: #0a103c;
+}
+.column1 {
+  font-style: italic;
+  background: -webkit-linear-gradient(rgba(0, 0, 0,0.8), #ffffff);
+  width: 400px;
+  height: 400px;
+  padding: 60px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pra{
+font-size: 40px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+

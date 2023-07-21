@@ -1,0 +1,156 @@
+
+.contact {
+    padding-top: 3rem;
+}
+
+.contact-sec {
+    width: 100%;
+}
+
+.contact-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-inner-col {
+    margin: 2rem;
+    flex: 1 1 20rem;
+    text-align: center;
+}
+
+.contact-inner-col img {
+    width: 100%;
+    height: auto;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+
+.contact-inner-col h1 {
+    padding: 1rem 0;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(#293ccc, #e42da1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.contact-inner-col p {
+    padding: .5rem 0;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(#293ccc, #e42da1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.contact-inner-col input,
+.contact-inner-col textarea
+ {
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    border: none;
+    border-bottom: .3rem solid #0a103c;
+    margin-left: 150px;
+
+}
+
+textarea {
+    resize: none;
+}
+
+.required-color {
+    color: #ff4747;
+  }
+  
+.map {
+    border: .1rem solid #000000;
+}
+
+.copyright {
+    display: flex;
+    margin-top: 5rem;
+    padding: 3rem;
+    text-align: center;
+    justify-content: space-between;
+    background-image: url("data/backgroundsmoke.jpg");
+}
+
+.copyright i {
+    font-size: 2rem;
+    color:#e42da1;
+}
+
+.copyright p {
+    letter-spacing: .1rem;
+    font-size: 2rem;
+    background: -webkit-linear-gradient( rgb(109, 27, 78), #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social a {
+    padding: 1rem;
+    background: rgba(181, 174, 174, 0.8);
+    font-size: 1.5rem;
+}
+
+.social a:hover {
+    transform: translateY(-2rem);
+    cursor: pointer;
+    transition: 1s ease;
+    background: white;
+
+}
+
+#facebook{
+    color: #293ccc;
+}
+
+#instagram{
+    color: #e42da1;
+
+}
+
+#github{
+    color: #000000;
+}
+
+#google{
+    color: #8f0707;
+}
+
+
+.btn {
+    margin-top: 2rem;
+    padding: 1.3rem 4rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    color: #000;
+    background-color: rgba(181, 174, 174, 0.8);
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0px .2rem 2rem rgba(10, 16, 60,0.5);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #0a103c;
+    box-shadow: 0px .2rem 2rem rgba(0, 0, 0, 0.4);
+    color: #fff;
+    transform: translateY(-1rem);
+}
+
+.btn:active {
+    transform: translateY(-.1rem);
+}
