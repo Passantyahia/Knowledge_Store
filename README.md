@@ -1,2 +1,2 @@
-# Knowledg_Store
+# Knowledge_Store
 book store for sale books online.
